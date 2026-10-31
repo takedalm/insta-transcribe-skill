@@ -1,0 +1,18 @@
+# Sensitive credentials and session files (never commit!)
+cookies.txt
+*.cookies.txt
+.env
+.env.*
+.ig_ratelimit.lock
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
